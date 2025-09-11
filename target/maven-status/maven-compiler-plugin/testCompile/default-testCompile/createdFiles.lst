@@ -1,0 +1,10 @@
+testClassesFormySelf\TestClass1.class
+stepDefinations\BaseClass.class
+step1Definations\steps1.class
+pageObjects\LoginPage.class
+testRunner\TestRun.class
+parallelStepDefination\steps2.class
+utilities\WaitHelper.class
+pageObjects\EditAccountInformation.class
+pageObjects\RegistrationPage.class
+pageObjects\SearchOrder.class
