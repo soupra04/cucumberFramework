@@ -1,6 +1,5 @@
 package driver;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,42 +10,49 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverManager {
 
-	static WebDriver driver;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-	public static WebDriver getDriver() {
-		return driver;
-	}
+    // Get the driver for the current thread
+    public static WebDriver getDriver() {
+        return driver.get();
+    }
 
-	public static void init(String browser) {
-		if (browser == null || browser.isBlank()) {
-			throw new IllegalArgumentException("Browser name is null or empty.");
-		}
+    // Initialize driver for the current thread
+    public static void init(String browser) {
+        if (browser == null || browser.isBlank()) {
+            throw new IllegalArgumentException("Browser name is null or empty.");
+        }
 
-		if (browser.equalsIgnoreCase("chrome")) {
-			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--start-maximized");
-			chromeOptions.addArguments("--disable-notifications");
-			driver = new ChromeDriver(chromeOptions);
+        switch (browser.toLowerCase()) {
+            case "chrome":
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--start-maximized");
+                chromeOptions.addArguments("--disable-notifications");
+                driver.set(new ChromeDriver(chromeOptions));
+                break;
 
-		} else if (browser.equalsIgnoreCase("firefox")) {
-			FirefoxOptions firefoxOptions = new FirefoxOptions();
-			firefoxOptions.addArguments("--start-maximized");
-			driver = new FirefoxDriver(firefoxOptions);
+            case "firefox":
+                FirefoxOptions firefoxOptions = new FirefoxOptions();
+                firefoxOptions.addArguments("--start-maximized");
+                driver.set(new FirefoxDriver(firefoxOptions));
+                break;
 
-		} else if (browser.equalsIgnoreCase("edge")) {
-			EdgeOptions edgeOptions = new EdgeOptions();
-			edgeOptions.addArguments("--start-maximized");
-			driver = new EdgeDriver(edgeOptions);
+            case "edge":
+                EdgeOptions edgeOptions = new EdgeOptions();
+                edgeOptions.addArguments("--start-maximized");
+                driver.set(new EdgeDriver(edgeOptions));
+                break;
 
-		} else {
-			throw new RuntimeException("Unsupported browser: " + browser);
-		}
-	}
+            default:
+                throw new RuntimeException("Unsupported browser: " + browser);
+        }
+    }
 
-	public static void tearDown() {
-		if (driver != null) {
-			driver.quit();
-			driver = null;
-		}
-	}
+    // Quit driver for the current thread
+    public static void tearDown() {
+        if (driver.get() != null) {
+            driver.get().quit();
+            driver.remove();
+        }
+    }
 }

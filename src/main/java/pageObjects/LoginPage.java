@@ -10,7 +10,7 @@ import driver.DriverManager;
 public class LoginPage {
 	WebDriver driver;
 	public LoginPage(WebDriver driver) {
-	this.driver = DriverManager.getDriver();
+	this.driver = driver;
 
 	}
 
