@@ -6,10 +6,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/Features2/add-to-cart.feature",
+		features = "src/test/resources/Features2/login.feature",
 		//features = "src/test/resources/Features/login.feature" // Path to your feature files
 		glue = {"step1Definations", "myHooks"}, // Package containing step definitions
-		plugin = {"pretty", "html:target/AddToCartReport.html"}, // Reporting plugins
+		plugin = {"pretty", "html:target/loginPage.html"}, // Reporting plugins
 		//plugin = {"pretty", "json:target/cucumber-reports-json.json"}, // Reporting plugins for jSON
         // publish=true,
 		monochrome = false, // Cleaner console output
