@@ -13,6 +13,7 @@ import pageObjects.AddItemToCartPage;
 import pageObjects.EditAccountInformation;
 import pageObjects.LoginPage;
 import pageObjects.RegistrationPage;
+import pageObjects.loginWithExcel;
 import utilities.WaitHelper;
 
 
@@ -26,6 +27,7 @@ public class BaseClass {
 	public Properties configProp;
 	public WaitHelper wait;
 	public EditAccountInformation ed;
+	public loginWithExcel le;
 
 	public BaseClass(WebDriver driver) {
 		this.driver = driver;
