@@ -862,3 +862,196 @@
 2025-09-11 13:20:39 INFO  Login - Clicked on login button
 2025-09-11 13:20:39 INFO  Login - Expected title: Account Login
 2025-09-11 13:20:39 INFO  Login - Actual title: Account Login
+2025-09-11 14:27:31 INFO  Login - Launching Edge browser
+2025-09-11 14:27:33 INFO  Login - Login page opened
+2025-09-11 14:27:33 INFO  Login - Entered username
+2025-09-11 14:27:33 INFO  Login - Entered password
+2025-09-11 14:27:35 INFO  Login - Clicked on login button
+2025-09-11 14:27:35 INFO  Login - Expected title: My Account
+2025-09-11 14:27:35 INFO  Login - Actual title: My Account
+2025-09-11 15:23:22 INFO  Login - Launching Edge browser
+2025-09-11 15:23:24 INFO  Login - Login page opened
+2025-09-11 15:23:24 INFO  Login - Entered username
+2025-09-11 15:23:24 INFO  Login - Entered password
+2025-09-11 15:23:26 INFO  Login - Clicked on login button
+2025-09-11 15:23:26 INFO  Login - Expected title: My Account
+2025-09-11 15:23:26 INFO  Login - Actual title: My Account
+2025-09-11 15:26:02 INFO  Login - Launching Edge browser
+2025-09-11 15:26:03 INFO  Login - Login page opened
+2025-09-11 15:26:04 INFO  Login - Entered username
+2025-09-11 15:26:04 INFO  Login - Entered password
+2025-09-11 15:26:06 INFO  Login - Clicked on login button
+2025-09-11 15:26:06 INFO  Login - Expected title: My Account
+2025-09-11 15:26:06 INFO  Login - Actual title: My Account
+2025-09-11 15:27:01 INFO  Login - Launching Edge browser
+2025-09-11 15:27:02 INFO  Login - Login page opened
+2025-09-11 15:27:02 INFO  Login - Entered username
+2025-09-11 15:27:03 INFO  Login - Entered password
+2025-09-11 15:27:05 INFO  Login - Clicked on login button
+2025-09-11 15:27:05 INFO  Login - Expected title: My Account
+2025-09-11 15:27:05 INFO  Login - Actual title: My Account
+2025-09-11 15:28:16 INFO  Login - Launching Edge browser
+2025-09-11 15:28:17 INFO  Login - Login page opened
+2025-09-11 15:28:17 INFO  Login - Entered username
+2025-09-11 15:28:17 INFO  Login - Entered password
+2025-09-11 15:28:19 INFO  Login - Clicked on login button
+2025-09-11 15:28:19 INFO  Login - Expected title: My Account
+2025-09-11 15:28:19 INFO  Login - Actual title: My Account
+2025-09-11 15:29:35 INFO  Login - Launching Edge browser
+2025-09-11 15:29:36 INFO  Login - Login page opened
+2025-09-11 15:29:36 INFO  Login - Entered username
+2025-09-11 15:29:36 INFO  Login - Entered password
+2025-09-11 15:29:38 INFO  Login - Clicked on login button
+2025-09-11 15:29:38 INFO  Login - Expected title: My Account
+2025-09-11 15:29:38 INFO  Login - Actual title: My Account
+2025-09-11 15:30:34 INFO  Login - Launching Edge browser
+2025-09-11 15:30:35 INFO  Login - Login page opened
+2025-09-11 15:30:35 INFO  Login - Entered username
+2025-09-11 15:30:35 INFO  Login - Entered password
+2025-09-11 15:30:37 INFO  Login - Clicked on login button
+2025-09-11 15:30:37 INFO  Login - Expected title: My Account
+2025-09-11 15:30:37 INFO  Login - Actual title: My Account
+2025-09-11 15:31:19 INFO  Login - Launching Edge browser
+2025-09-11 15:31:20 INFO  Login - Login page opened
+2025-09-11 15:31:20 INFO  Login - Entered username
+2025-09-11 15:31:20 INFO  Login - Entered password
+2025-09-11 15:31:22 INFO  Login - Clicked on login button
+2025-09-11 15:31:22 INFO  Login - Expected title: My Account
+2025-09-11 15:31:22 INFO  Login - Actual title: My Account
+2025-09-11 15:32:22 INFO  Login - Launching Edge browser
+2025-09-11 15:32:23 INFO  Login - Login page opened
+2025-09-11 15:32:23 INFO  Login - Entered username
+2025-09-11 15:32:24 INFO  Login - Entered password
+2025-09-11 15:32:26 INFO  Login - Clicked on login button
+2025-09-11 15:32:26 INFO  Login - Expected title: My Account
+2025-09-11 15:32:26 INFO  Login - Actual title: My Account
+2025-09-11 15:32:56 INFO  Login - Launching Edge browser
+2025-09-11 15:32:57 INFO  Login - Login page opened
+2025-09-11 15:32:58 INFO  Login - Entered username
+2025-09-11 15:32:58 INFO  Login - Entered password
+2025-09-11 15:33:00 INFO  Login - Clicked on login button
+2025-09-11 15:33:00 INFO  Login - Expected title: My Account
+2025-09-11 15:33:00 INFO  Login - Actual title: My Account
+2025-09-11 15:40:58 INFO  Login - Launching Edge browser
+2025-09-11 15:40:59 INFO  Login - Login page opened
+2025-09-11 15:40:59 INFO  Login - Entered username
+2025-09-11 15:41:00 INFO  Login - Entered password
+2025-09-11 15:41:02 INFO  Login - Clicked on login button
+2025-09-11 15:41:02 INFO  Login - Expected title: My Account
+2025-09-11 15:41:02 INFO  Login - Actual title: My Account
+2025-09-11 15:54:24 INFO  Login - Launching Edge browser
+2025-09-11 15:54:26 INFO  Login - Login page opened
+2025-09-11 15:54:27 INFO  Login - Entered username
+2025-09-11 15:54:27 INFO  Login - Entered password
+2025-09-11 15:54:29 INFO  Login - Clicked on login button
+2025-09-11 15:54:29 INFO  Login - Expected title: My Account
+2025-09-11 15:54:29 INFO  Login - Actual title: My Account
+2025-09-11 15:57:49 INFO  Login - Launching Edge browser
+2025-09-11 15:57:50 INFO  Login - Login page opened
+2025-09-11 15:57:50 INFO  Login - Entered username
+2025-09-11 15:57:50 INFO  Login - Entered password
+2025-09-11 15:57:53 INFO  Login - Clicked on login button
+2025-09-11 15:57:53 INFO  Login - Expected title: My Account
+2025-09-11 15:57:53 INFO  Login - Actual title: My Account
+2025-09-11 16:01:43 INFO  Login - Launching Edge browser
+2025-09-11 16:01:44 INFO  Login - Login page opened
+2025-09-11 16:01:44 INFO  Login - Entered username
+2025-09-11 16:01:44 INFO  Login - Entered password
+2025-09-11 16:01:46 INFO  Login - Clicked on login button
+2025-09-11 16:01:46 INFO  Login - Expected title: My Account
+2025-09-11 16:01:46 INFO  Login - Actual title: My Account
+2025-09-11 16:03:30 INFO  Login - Launching Edge browser
+2025-09-11 16:03:31 INFO  Login - Login page opened
+2025-09-11 16:03:31 INFO  Login - Entered username
+2025-09-11 16:03:31 INFO  Login - Entered password
+2025-09-11 16:03:33 INFO  Login - Clicked on login button
+2025-09-11 16:03:33 INFO  Login - Expected title: My Account
+2025-09-11 16:03:33 INFO  Login - Actual title: My Account
+2025-09-11 17:15:42 INFO  Login - Launching Edge browser
+2025-09-11 17:15:42 INFO  Login - Login page opened
+2025-09-11 17:15:43 INFO  Login - Entered username
+2025-09-11 17:15:43 INFO  Login - Entered password
+2025-09-11 17:15:45 INFO  Login - Clicked on login button
+2025-09-11 17:15:45 INFO  Login - Expected title: My Account
+2025-09-11 17:15:45 INFO  Login - Actual title: My Account
+2025-09-11 21:09:23 INFO  Login - Launching Edge browser
+2025-09-11 21:09:24 INFO  Login - Login page opened
+2025-09-11 21:09:24 INFO  Login - Entered username
+2025-09-11 21:09:25 INFO  Login - Entered password
+2025-09-11 21:09:27 INFO  Login - Clicked on login button
+2025-09-11 21:09:27 INFO  Login - Expected title: My Account
+2025-09-11 21:09:27 INFO  Login - Actual title: My Account
+2025-09-11 21:10:10 INFO  Login - Launching Edge browser
+2025-09-11 21:10:11 INFO  Login - Login page opened
+2025-09-11 21:10:11 INFO  Login - Entered username
+2025-09-11 21:10:11 INFO  Login - Entered password
+2025-09-11 21:10:13 INFO  Login - Clicked on login button
+2025-09-11 21:10:13 INFO  Login - Expected title: My Account
+2025-09-11 21:10:13 INFO  Login - Actual title: My Account
+2025-09-11 21:13:05 INFO  Login - Launching Edge browser
+2025-09-11 21:13:06 INFO  Login - Login page opened
+2025-09-11 21:13:06 INFO  Login - Entered username
+2025-09-11 21:13:07 INFO  Login - Entered password
+2025-09-11 21:13:09 INFO  Login - Clicked on login button
+2025-09-11 21:13:09 INFO  Login - Expected title: My Account
+2025-09-11 21:13:09 INFO  Login - Actual title: My Account
+2025-09-11 21:27:08 INFO  Login - Launching Edge browser
+2025-09-11 21:27:31 INFO  Login - Launching Edge browser
+2025-09-11 21:28:09 INFO  Login - Launching Edge browser
+2025-09-11 21:28:32 INFO  Login - Launching Edge browser
+2025-09-11 21:28:40 INFO  Login - Login page opened
+2025-09-11 21:34:06 INFO  Login - Launching Edge browser
+2025-09-11 21:34:29 INFO  Login - Launching Edge browser
+2025-09-11 21:34:38 INFO  Login - Login page opened
+2025-09-11 21:38:59 INFO  Login - Launching Edge browser
+2025-09-11 21:39:23 INFO  Login - Launching Edge browser
+2025-09-11 21:39:31 INFO  Login - Login page opened
+2025-09-11 21:40:55 INFO  Login - Launching Chrome browser
+2025-09-11 21:41:38 INFO  Login - Launching Chrome browser
+2025-09-13 17:27:38 INFO  Login - Launching Chrome browser
+2025-09-13 17:27:39 INFO  Login - Login page opened
+2025-09-13 17:27:39 INFO  Login - Entered username
+2025-09-13 17:27:39 INFO  Login - Entered password
+2025-09-13 17:27:41 INFO  Login - Clicked on login button
+2025-09-13 17:27:41 INFO  Login - Expected title: My Account
+2025-09-13 17:27:41 INFO  Login - Actual title: My Account
+2025-09-13 17:27:45 INFO  Login - Launching Chrome browser
+2025-09-13 17:27:46 INFO  Login - Login page opened
+2025-09-13 17:27:46 INFO  Login - Entered username
+2025-09-13 17:27:46 INFO  Login - Entered password
+2025-09-13 17:27:48 INFO  Login - Clicked on login button
+2025-09-13 17:27:48 INFO  Login - Expected title: My Account
+2025-09-13 17:27:48 INFO  Login - Actual title: My Account
+2025-09-13 17:28:32 INFO  Login - Launching Chrome browser
+2025-09-13 17:28:32 INFO  Login - Login page opened
+2025-09-13 17:28:32 INFO  Login - Entered username
+2025-09-13 17:28:33 INFO  Login - Entered password
+2025-09-13 17:28:35 INFO  Login - Clicked on login button
+2025-09-13 17:28:51 INFO  Login - Launching Chrome browser
+2025-09-13 17:28:51 INFO  Login - Login page opened
+2025-09-13 17:28:52 INFO  Login - Entered username
+2025-09-13 17:28:52 INFO  Login - Entered password
+2025-09-13 17:28:54 INFO  Login - Clicked on login button
+2025-09-13 17:28:54 INFO  Login - Expected title: My Account
+2025-09-13 17:28:54 INFO  Login - Actual title: My Account
+2025-09-13 17:42:08 INFO  Login - Launching Chrome browser
+2025-09-13 17:42:09 INFO  Login - Login page opened
+2025-09-13 17:42:10 INFO  Login - Entered username
+2025-09-13 17:42:10 INFO  Login - Entered password
+2025-09-13 17:42:12 INFO  Login - Clicked on login button
+2025-09-13 17:42:12 INFO  Login - Expected title: My Account
+2025-09-13 17:42:12 INFO  Login - Actual title: My Account
+2025-09-13 17:52:16 INFO  Login - Launching Chrome browser
+2025-09-13 17:52:17 INFO  Login - Login page opened
+2025-09-13 17:52:17 INFO  Login - Entered username
+2025-09-13 17:52:17 INFO  Login - Entered password
+2025-09-13 17:52:19 INFO  Login - Clicked on login button
+2025-09-13 17:52:19 INFO  Login - Expected title: My Account
+2025-09-13 17:52:19 INFO  Login - Actual title: My Account
+2025-09-13 17:53:23 INFO  Login - Launching Chrome browser
+2025-09-13 17:53:24 INFO  Login - Login page opened
+2025-09-13 17:53:24 INFO  Login - Entered username
+2025-09-13 17:53:24 INFO  Login - Entered password
+2025-09-13 17:53:26 INFO  Login - Clicked on login button
+2025-09-13 17:53:26 INFO  Login - Expected title: My Account
+2025-09-13 17:53:26 INFO  Login - Actual title: My Account

@@ -1,1 +1,6 @@
 D:\Java_workspace\cucumber\src\main\java\driver\DriverManager.java
+D:\Java_workspace\cucumber\src\main\java\pageObjects\AddItemToCartPage.java
+D:\Java_workspace\cucumber\src\main\java\pageObjects\EditAccountInformation.java
+D:\Java_workspace\cucumber\src\main\java\pageObjects\LoginPage.java
+D:\Java_workspace\cucumber\src\main\java\pageObjects\RegistrationPage.java
+D:\Java_workspace\cucumber\src\main\java\utilities\WaitHelper.java

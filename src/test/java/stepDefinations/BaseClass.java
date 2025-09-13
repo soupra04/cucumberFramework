@@ -9,10 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import driver.DriverManager;
+import pageObjects.AddItemToCartPage;
 import pageObjects.EditAccountInformation;
 import pageObjects.LoginPage;
 import pageObjects.RegistrationPage;
-import pageObjects.SearchOrder;
 import utilities.WaitHelper;
 
 
@@ -21,7 +21,7 @@ public class BaseClass {
 	public LoginPage loginPage;
 	public WebDriver driver;
 	public RegistrationPage rpage;
-	public SearchOrder so;
+	public AddItemToCartPage so;
 	public static Logger logger;
 	public Properties configProp;
 	public WaitHelper wait;
@@ -31,7 +31,7 @@ public class BaseClass {
 		this.driver = driver;
 		this.loginPage = new LoginPage(driver);
 		this.rpage = new RegistrationPage(driver);
-		this.so = new SearchOrder(driver);
+		this.so = new AddItemToCartPage(driver);
 		this.wait = new WaitHelper(driver);
 		this.ed = new EditAccountInformation(driver);
 	}

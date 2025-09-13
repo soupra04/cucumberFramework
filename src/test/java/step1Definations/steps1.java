@@ -25,7 +25,6 @@ import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import pageObjects.EditAccountInformation;
 import pageObjects.LoginPage;
 import pageObjects.RegistrationPage;
-import pageObjects.SearchOrder;
 import stepDefinations.BaseClass;
 
 public class steps1 extends BaseClass {
@@ -116,32 +115,7 @@ public class steps1 extends BaseClass {
 
 	}
 
-	@When("I search a product with {string}")
-	public void i_search_a_product_with(String name) {
-		so = new SearchOrder(driver);
-		so.searchitem(name);
-	}
-
-	@When("I click on search button")
-	public void i_click_on_search_button() {
-		so.clicksearch();
-
-	}
-
-	@Then("I can see the product with {string} in the product name")
-	public void i_can_see_the_product_with_in_the_product_name(String string) {
-		List<WebElement> products = driver.findElements(By.xpath("//div[@class='row']//div[@class='caption']/h4"));
-		for (WebElement product : products) {
-			if (product.getText().contains("Apple")) {
-				product.click();
-				break;
-
-			}
-		}
-		System.out.println("product is found");
-
-	}
-
+	
 	@Given("I click on the Edit Account button")
 	public void i_have_clicked_on_the_edit_account_button() {
 		ed = new EditAccountInformation(driver);
