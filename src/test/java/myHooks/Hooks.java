@@ -55,9 +55,9 @@ public class Hooks extends BaseClass {
 		driver = DriverManager.getDriver();
 	}
 	
-	@After
-	public void tearDown() {
-		DriverManager.tearDown();
-	}
+//	@After
+//	public void tearDown() {
+//		DriverManager.tearDown();
+//	}
 
 }
